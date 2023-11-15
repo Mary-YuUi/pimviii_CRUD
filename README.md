@@ -34,9 +34,9 @@ Assuntos Abordados no Desenvolvimento do CRUD :
 
 ## Configuração do Projeto:
 
-- Visual Studio 2019
+- Visual Studio V.1.84.1
 - Diagrama Entidade-Relacionamento (DER):
- <img src="https://user-images.githubusercontent.com/55299009/100529150-28556180-31c3-11eb-9f7c-910e3cd66422.png](https://drive.google.com/file/d/1VMRdFfIKy4rs-rDnbFpzGab3BiGxoLgy/view?usp=sharing)" alt="DER" height="300">
+ <img src="https://drive.google.com/file/d/1VMRdFfIKy4rs-rDnbFpzGab3BiGxoLgy/view?usp=sharing" alt="DER" height="300">
  
  :exclamation: As tabelas que utilizarem Chave Estrangeira 
  modifequem para On Update No Action, On Delete Cascade, no MySQL Workbench.
