@@ -1,0 +1,57 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Update font stack */
+    background-color: #f8f8f8; 
+    height: 782px;
+}
+
+.td-left {
+    width: 600px;
+}
+
+.td-right {
+    width: 400px;
+}
+
+.style-panel-login {
+    width: 250px;
+    background-color: #E6F7E6; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.style-txt-login {
+    margin-left: -100px;
+    color: #000000;
+}
+
+.style-input {
+    margin-left: 2px;
+    font-size: 17px;
+    width: 180px;
+    padding: 5px 6px;
+}
+
+.style-bt-login {
+    background-color: #007BFF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+.style-bt-register {
+    background-color: #2ECC71; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+.style-txt-remember {
+    margin: 8px 0;    
+    font-size: 12px;
+    color: #6C757D; 
+}

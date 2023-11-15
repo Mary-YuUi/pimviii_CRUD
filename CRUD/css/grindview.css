@@ -1,0 +1,66 @@
+﻿.style-gridview1 {
+    height: auto;
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+.style-gridview-edit-row {
+    background-color: #8E44AD; /* Purple */
+}
+
+.style-gridview-footer {
+    color: #2C3E50; /* Dark Blue-Gray */
+    font-weight: bold;
+    background-color: #8E44AD;
+}
+
+.style-gridview-header {
+    color: #2C3E50;
+    font-weight: bold;
+    background-color: #8E44AD;
+}
+
+.style-gridview-page {
+    text-align: center;
+    color: #ECF0F1; /* Light Gray */
+    background-color: #3498DB; /* Blue */
+}
+
+.style-gridview-row {
+    background-color: #D5DBDB; 
+}
+
+.style-gridview-select-row {
+    color: #2C3E50;
+    font-weight: bold;
+    background-color: #BDC3C7;
+}
+
+.style-gridview-ascending-cell {
+    background-color: #F0F3F4; 
+}
+
+.style-gridview-ascending-header {
+    background-color: #3498DB;
+}
+
+.style-gridview-descending-cell {
+    background-color: #D4E6F1; 
+}
+
+.style-gridview-descending-header {
+    background-color: #2980B9; 
+}
+
+.style-gridview-bt {
+    background-color: #27AE60; 
+    font-weight: bold;
+    margin-left: 18px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    color: white;
+    padding: 2px 2px;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+}
