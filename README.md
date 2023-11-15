@@ -36,7 +36,7 @@ Assuntos Abordados no Desenvolvimento do CRUD :
 
 - Visual Studio V.1.84.1
 - Diagrama Entidade-Relacionamento (DER):
- <img src="https://drive.google.com/file/d/1VMRdFfIKy4rs-rDnbFpzGab3BiGxoLgy/view?usp=sharing" alt="DER" height="300">
+ <img src="https://github.com/Mary-YuUi/pimviii_CRUD/blob/main/der.png?raw=true" alt="DER" height="300">
  
  :exclamation: As tabelas que utilizarem Chave Estrangeira 
  modifequem para On Update No Action, On Delete Cascade, no MySQL Workbench.
