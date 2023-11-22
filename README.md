@@ -34,12 +34,10 @@ Assuntos Abordados no Desenvolvimento do CRUD :
 
 ## Configuração do Projeto:
 
-- Visual Studio 2019
+- Visual Studio Versão 1.84.1
 - Diagrama Entidade-Relacionamento (DER)
  <img src="https://github.com/Mary-YuUi/pimviii_CRUD/blob/main/der.png?raw=true" alt="DER" height="300"> 
- :exclamation: As tabelas que utilizarem Chave Estrangeira 
- modifequem para On Update No Action, On Delete Cascade, no MySQL Workbench.
- Para que o botão deletar funcione corretamente. :smiley:
+ :exclamation: Altere as configurações das tabelas que fazem uso de Chave Estrangeira no MySQL Workbench. Defina as opções como "On Update No Action" e "On Delete Cascade". Isso é necessário para garantir que o botão de exclusão funcione conforme esperado, proporcionando uma gestão adequada das referências entre as tabelas.
 
 ## License
 
