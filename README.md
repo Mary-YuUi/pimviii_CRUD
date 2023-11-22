@@ -34,7 +34,7 @@ Assuntos Abordados no Desenvolvimento do CRUD :
 
 ## Configuração do Projeto:
 
-- Visual Studio 2019
+- Visual Studio 1.84.1
 - Diagrama Entidade-Relacionamento (DER)
  <img src="https://github.com/Mary-YuUi/pimviii_CRUD/blob/main/der.png?raw=true" alt="DER" height="300"> 
  :exclamation: As tabelas que utilizarem Chave Estrangeira 
