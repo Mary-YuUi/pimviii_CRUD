@@ -1,0 +1,22 @@
+﻿/* Carrinho.css */
+#formCarrinho {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#gridCarrinhos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#gridCarrinhos th, #gridCarrinhos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#gridCarrinhos th {
+    background-color: #f2f2f2;
+}

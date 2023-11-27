@@ -1,0 +1,22 @@
+﻿/* Cliente.css */
+#formCliente {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#gridClientes {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#gridClientes th, #gridClientes td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#gridClientes th {
+    background-color: #f2f2f2;
+}

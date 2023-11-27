@@ -1,82 +1,77 @@
-﻿```csharp
-//------------------------------------------------------------------------------
+﻿//------------------------------------------------------------------------------
 // <gerado automaticamente>
 //     Este código foi gerado por uma ferramenta.
 //
 //     As alterações ao arquivo poderão causar comportamento incorreto e serão perdidas se
-//     o código for recriado
+//     o código for recriado.
 // </gerado automaticamente>
 //------------------------------------------------------------------------------
 
-namespace CRUD.script
+namespace SeuProjeto
 {
-
-
-    public partial class acesso
+    public partial class Carrinho
     {
-
         /// <summary>
-        /// Controle formularioAcesso.
+        /// Controle form1.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm formularioAcesso;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle campoEmail.
+        /// Controle txtDataPedido.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox campoEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtDataPedido;
 
         /// <summary>
-        /// Controle campoSenha.
+        /// Controle txtValorTotal.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox campoSenha;
+        protected global::System.Web.UI.WebControls.TextBox txtValorTotal;
 
         /// <summary>
-        /// Controle mensagemErro.
+        /// Controle txtStatusPedido.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mensagemErro;
+        protected global::System.Web.UI.WebControls.TextBox txtStatusPedido;
 
         /// <summary>
-        /// Controle botaoEntrar.
+        /// Controle txtClienteId.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button botaoEntrar;
+        protected global::System.Web.UI.WebControls.TextBox txtClienteId;
 
         /// <summary>
-        /// Controle linkEsqueceuSenha.
+        /// Controle btnAdicionar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton linkEsqueceuSenha;
+        protected global::System.Web.UI.WebControls.Button btnAdicionar;
 
         /// <summary>
-        /// Controle botaoCadastrar.
+        /// Controle gridCarrinhos.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button botaoCadastrar;
+        protected global::System.Web.UI.WebControls.GridView gridCarrinhos;
     }
 }
-```

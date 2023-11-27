@@ -1,34 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using MySql.Data.MySqlClient;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace CRUD.script
+namespace SeuProjeto.Models
 {
-    public class database
+    public class MeuContexto : DbContext
     {
-        private MySqlConnection connection = new MySqlConnection("server=localhost;user id=root;database=cadastro;password=123456");
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Carrinho> Carrinhos { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Vendedor> Vendedores { get; set; }
+        public DbSet<ItemCarrinho> ItensCarrinho { get; set; }
 
-        public void openConnection()
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if(connection.State == System.Data.ConnectionState.Closed)
-            {
-                connection.Open();
-            }
-        }
-
-        public void closeConnection()
-        {
-            if (connection.State == System.Data.ConnectionState.Open)
-            {
-                connection.Close();
-            }
-        }
-
-        public MySqlConnection getConnection()
-        {
-            return connection;
+            optionsBuilder.UseSqlServer(@"Server=MARYTOP\SQLEXPRESS;Database=Marketplace;Trusted_Connection=True;");
         }
     }
 }

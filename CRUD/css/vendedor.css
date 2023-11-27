@@ -1,0 +1,22 @@
+﻿/* Vendedor.css */
+#formVendedor {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#gridVendedores {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#gridVendedores th, #gridVendedores td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#gridVendedores th {
+    background-color: #f2f2f2;
+}
