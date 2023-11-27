@@ -5,7 +5,7 @@
 <br>
 </h1>
 
-<p align="center">Um projeto básico de CRUD foi criado como parte do PIMVIII. Este CRUD possui funcionalidades essenciais, como registro de usuários, login, exclusão, edição e salvamento de informações. Essas operações constituem a base para a gestão de dados em diversos sistemas, proporcionando uma experiência completa de interação com as informações.</p>
+<p align="center">Um projeto básico de CRUD foi criado como parte do PIMVIII. Este CRUD possui funcionalidades essenciais, como registro de clientes, login, exclusão, edição e salvamento de informações,tais como de produto e carrinho. Essas operações constituem a base para a gestão de dados em diversos sistemas, proporcionando uma experiência completa de interação com as informações.</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
